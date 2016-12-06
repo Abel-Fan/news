@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index2.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="js/zepto.js"></script>
+</head>
+<script>
+    $(function(){
+        function resize(originSize,type){
+            type = type || "x";
+            if(type=="x"){
+                var width = document.documentElement.clientWidth;
+                var scale = width/originSize*100+"px";
+                document.getElementsByTagName("html")[0].style.fontSize=scale;
+            }else if(type=="y"){
+                var height = document.documentElement.clientHeight;
+                var scale = height/originSize+"px";
+                document.getElementsByTagName("html")[0].style.fontSize=scale;
+            }
+        }
+        resize(750,"x");
+    })
+</script>
+<body>
+    <header><strong>发现</strong></header>
+    <div class="con">
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </div>
+    <footer>
+        <a href="index.html" class="box">
+            <div class="icon-font iconfont icon-shouye"></div>
+            <p><strong>首页</strong></p>
+        </a>
+        <a href="index2.html" class="box">
+            <div class="icon-font iconfont icon-faxian1"></div>
+            <p><strong>发现</strong></p>
+        </a>
+        <a class="box">
+            <div class="icon-font iconfont icon-gengduo"></div>
+            <p><strong>更多</strong></p>
+        </a>
+    </footer>
+</body>
+</html>

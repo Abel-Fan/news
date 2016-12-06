@@ -1,0 +1,92 @@
+header{
+    width:7.5rem;height:0.87rem;
+    border-bottom:1px solid #df0120;
+    background: #ef0425;
+    color:#fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 0.05rem;
+    position: relative;
+    z-index: 999;
+}
+header strong{
+    font-size: 0.36rem;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.con a{
+    width:25%;
+    height:1.57rem;
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    box-sizing: border-box;
+}
+.con a:nth-child(1){
+    border-left:0;
+    background: url(../img/img_03.png) no-repeat center center;
+}
+.con a:nth-child(2){
+    background: url(../img/img_06.png) no-repeat center center;
+}
+.con a:nth-child(3){
+    background: url(../img/img_08.png) no-repeat center center;
+}
+.con a:nth-child(4){
+    background: url(../img/img_10.png) no-repeat center center;
+}
+.con a:nth-child(5){
+    border-left:0;
+    background: url(../img/img_16.png) no-repeat center center;
+}
+.con a:nth-child(6){
+    background: url(../img/img_18.png) no-repeat center center;
+}
+.con a:nth-child(7){
+    background: url(../img/img_20.png) no-repeat center center;
+}
+.con a:nth-child(8){
+    background: url(../img/img_22.png) no-repeat center center;
+}
+.con a:nth-child(9){
+    border-left:0;
+    background: url(../img/img_30.png) no-repeat center center;
+}
+.con a:nth-child(10){
+    background: url(../img/img_33.png) no-repeat center center;
+}
+.con a:nth-child(11){
+    background: url(../img/img_35.png) no-repeat center center;
+}
+.con a:nth-child(12){
+    background: url(../img/img_32.png) no-repeat center center;
+}
+
+/*footer*/
+footer{
+    width:7.5rem;
+    height:1.11rem;
+    position:fixed;
+    bottom:0;left:0;
+    background: #2e2e2e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .box{
+    width:0.5rem;
+    color:#fff;
+    font-size: 0.24rem;
+}
+footer .box .icon-font{
+    width:100%;
+    height:0.5rem;
+    text-align: center;
+    font-size: 0.4rem;
+}
+footer .box:nth-child(1){
+    color:#ef0425;
+}
