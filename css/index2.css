@@ -28,41 +28,53 @@ header strong{
 .con a:nth-child(1){
     border-left:0;
     background: url(../img/img_03.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(2){
     background: url(../img/img_06.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(3){
     background: url(../img/img_08.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(4){
     background: url(../img/img_10.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(5){
     border-left:0;
     background: url(../img/img_16.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(6){
     background: url(../img/img_18.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(7){
     background: url(../img/img_20.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(8){
     background: url(../img/img_22.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(9){
     border-left:0;
     background: url(../img/img_30.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(10){
     background: url(../img/img_33.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(11){
     background: url(../img/img_35.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 .con a:nth-child(12){
     background: url(../img/img_32.png) no-repeat center center;
+    background-size: 1.12rem 1.36rem;
 }
 
 /*footer*/

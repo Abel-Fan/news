@@ -76,7 +76,7 @@ nav a:nth-child(1){
     height:auto;
     padding-bottom: 10px;
     position:relative;
-    transition:margin 0.2s ease;
+    transition:top 0.2s ease;
 }
 /*轮播*/
 .wheel{

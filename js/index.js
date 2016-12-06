@@ -10,7 +10,7 @@ $(function(){
             langth = height1;
         }
         $(".fullpage").css({
-            marginTop:-langth
+            top:-langth
         })
         console.log(langth);
     });
@@ -20,7 +20,7 @@ $(function(){
             langth = 0;
         }
         $(".fullpage").css({
-            marginTop:-langth
+            top:-langth
         })
     })
 });
