@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index3.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="js/zepto.js"></script>
+</head>
+<script>
+    $(function(){
+        function resize(originSize,type){
+            type = type || "x";
+            if(type=="x"){
+                var width = document.documentElement.clientWidth;
+                var scale = width/originSize*100+"px";
+                document.getElementsByTagName("html")[0].style.fontSize=scale;
+            }else if(type=="y"){
+                var height = document.documentElement.clientHeight;
+                var scale = height/originSize+"px";
+                document.getElementsByTagName("html")[0].style.fontSize=scale;
+            }
+        }
+        resize(750,"x");
+    })
+</script>
+<body>
+    <header>
+        <div class="icon"><i class="iconfont icon-xiaoyuhao"></i><span>返回</span></div>
+        <strong>环球热点</strong>
+        <div class="icon iconfont icon-sandianheng"></div>
+    </header>
+    <div class="con">
+        <h1>在选购办公家具的过程中有哪些环保问题要注意呢？</h1>
+        <h4>家居中国    8小时前</h4>
+        <img src="img/new_4.jpg" alt="">
+        <p>办公家具必须严格执行四项含有强制性条款的国家标准才可购买。中国木家具及辅材料的有害物质限量分别执行以下四项含有强制性条款的国家标准：GB18580-2001《室内装饰装修材料人造板及其制品中甲醛释放量限量》、GB18581-2001《室内装饰装修材料溶合型木器涂料中有害物质限量》、GB18583-2001《室内装饰装修材料胶粘剂中有害物质限量》、GB18584-2001《室内装饰装修材料木家具中有害物质限量》。<br>
+            办公家具必须严格执行四项含有强制性条款的国家标准才可购买。中国木家具及辅材料的有害物质限量分别执行以下四项含有强制性条款的国家标准：GB18580-2001《室内装饰装修材料人造板及其制品中甲醛释放量限量》、GB18581-2001《室内装饰装修材料溶合型木器涂料中有害物质限量》、GB18583-2001《室内装饰装修材料胶粘剂中有害物质限量》、GB18584-2001《室内装饰装修材料木家具中有害物质限量》。<br>
+        </p>
+    </div>
+    <footer>
+        <a href="index.html" class="box">
+            <div class="icon-font iconfont icon-shouye"></div>
+            <p><strong>首页</strong></p>
+        </a>
+        <a href="index2.html" class="box">
+            <div class="icon-font iconfont icon-faxian1"></div>
+            <p><strong>发现</strong></p>
+        </a>
+        <a href="index3.html" class="box">
+            <div class="icon-font iconfont icon-gengduo"></div>
+            <p><strong>更多</strong></p>
+        </a>
+    </footer>
+</body>
+</html>

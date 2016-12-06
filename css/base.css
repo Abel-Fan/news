@@ -12,6 +12,7 @@ a{
     text-decoration: none;
     color:#bd2c00;
 }
-p,h1{
+p,h1,h4{
     margin:0;padding:0;
+    list-style: none;
 }
