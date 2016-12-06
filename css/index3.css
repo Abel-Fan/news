@@ -55,29 +55,73 @@ header .icon:last-child{
     margin:0.2rem auto;
     font-size: 0.24rem;
 }
-
+.liuyan{
+    width:7rem;
+    margin:0.5rem auto;
+    padding-top:0.5rem;
+    border-top:1px dashed #ccc;
+}
+.liuyan .name{
+    height:0.7rem;
+    line-height: 0.7rem;
+}
+.liuyan .name .header{
+    display: block;
+    width:0.7rem;
+    height:0.7rem;
+    background: #8ae75a;
+    border: 0;
+    border-radius:100%;
+    float:left;
+}
+.liuyan .name span{
+    margin-left:0.5rem;
+    font-size: 0.5rem;
+    color:#0A246A;
+}
+.liuyan p{
+    margin-top: 0.2rem;
+    font-size: 0.24rem;
+}
+.liuyan .time{
+    font-size: 0.24rem;
+    color:#ccc;
+}
 /*footer*/
 footer{
     width:7.5rem;
-    height:1.11rem;
+    height:0.7rem;
     position:fixed;
     bottom:0;left:0;
     background: #2e2e2e;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
-footer .box{
+footer .icon{
     width:0.5rem;
-    color:#fff;
-    font-size: 0.24rem;
-}
-footer .box .icon-font{
-    width:100%;
-    height:0.5rem;
+    height:0.7rem;
+    background: #fff;
+    float:left;
     text-align: center;
-    font-size: 0.4rem;
+    line-height: 0.7rem;
 }
-footer .box:nth-child(1){
-    color:#ef0425;
+footer .input{
+    width:4.5rem;
+    height:0.7rem;
+    float: left;
+}
+footer .input input{
+    width:100%;
+    height:0.7rem;
+    display: block;
+    border:0;
+    outline: none;
+}
+footer .submit{
+    width:2rem;
+    height:0.7rem;
+    float: left;
+}
+footer .submit input{
+    width:100%;
+    height:0.7rem;
+    display: block;
 }

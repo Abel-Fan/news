@@ -1,0 +1,77 @@
+header{
+    width:7.5rem;height:0.87rem;
+    border-bottom:1px solid #df0120;
+    background: #ef0425;
+    color:#fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 0.05rem;
+    position: relative;
+    z-index: 999;
+}
+header strong{
+    font-size: 0.36rem;
+}
+header .icon:first-child{
+    width:1rem;
+    height:0.48rem;
+    position: absolute;
+    top:0;bottom:0;
+    margin:auto 0 ;
+    left:0.24rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: right;
+    line-height: 0.48rem;
+}
+header .icon:last-child{
+    width:1rem;
+    height:0.48rem;
+    position: absolute;
+    top:0;bottom:0;
+    margin:auto 0 ;
+    right:0.24rem;
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    text-align: center;
+}
+.formbox{
+    width:6rem;
+    border:1px solid #ccc;
+    margin:0.5rem auto;
+    border-radius: 0.1rem;
+    font-size: 0.24rem;
+    padding: 0.3rem;
+    box-shadow:0 0.01rem  0.02rem #ccc;
+}
+.formbox .box:nth-child(1){
+    padding-bottom: 0.2rem;
+    border-bottom:1px solid #ccc;
+}
+.formbox .box:nth-child(2){
+    padding-top: 0.2rem;
+}
+.formbox .icon{
+    width:0.4rem;
+    height:0.4rem;
+    text-align: center;
+    line-height: 0.4;
+    float:left;
+}
+.formbox input{
+    border:0;
+    outline: none;
+    margin-left: 0.1rem;
+}
+.formbox a{
+    color:#333333;
+}
+.button{
+    display: block;
+    width:6.6rem;
+    height: 0.5rem;
+    border:1px solid #ccc;
+    margin:0 auto;
+    border-radius: 0.1rem;
+}

@@ -7,7 +7,8 @@ header{
     justify-content:center;
     align-items: center;
     letter-spacing: 0.05rem;
-    position: relative;
+    position: absolute;
+    top:0;
     z-index: 999;
 }
 header strong{
@@ -23,7 +24,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     font-weight: bold;
-    position: relative;
+    position: absolute;
+    top:0.88rem;
     z-index: 999;
 }
 nav a{
@@ -48,7 +50,8 @@ nav a:nth-child(1){
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
+    top:1.48rem;
     z-index: 999;
 }
 .search-box .box{
@@ -241,6 +244,7 @@ footer .box{
     width:0.5rem;
     color:#fff;
     font-size: 0.24rem;
+    text-align: center;
 }
 footer .box .icon-font{
     width:100%;

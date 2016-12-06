@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,9 +6,9 @@
     <meta name="x5-fullscreen" content="true" />   <!--只支持x5内核-->
     <meta name="full-screen" content="yes">   <!--只支持uc浏览器-->
     <meta name="format-detection" content="telephone=no, email=no" /><!--禁止识别电话号码和邮箱-->
-    <title>Title</title>
-    <link rel="stylesheet" href="css/index2.css">
+    <title>详情页</title>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index4.css">
     <link rel="stylesheet" href="css/iconfont.css">
     <script src="js/zepto.js"></script>
 </head>
@@ -30,38 +30,26 @@
     })
 </script>
 <body>
-    <header><strong>发现</strong></header>
-    <div class="con">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+<header>
+    <div class="icon"><i class="iconfont icon-xiaoyuhao"></i><span>返回</span></div>
+    <strong>登录</strong>
+    <div class="icon iconfont icon-sandianheng"></div>
+</header>
+<form action="">
+<div class="formbox">
+    <div class="box">
+        <div class="icon iconfont icon-yonghuming"></div>
+        <div class="right"><input type="text" placeholder="邮箱账号/手机号"></div>
     </div>
-    <footer>
-        <a href="index1.html" class="box">
-            <div class="icon-font iconfont icon-shouye"></div>
-            <p><strong>首页</strong></p>
-        </a>
-        <a href="index2.html" class="box">
-            <div class="icon-font iconfont icon-faxian1"></div>
-            <p><strong>发现</strong></p>
-        </a>
-        <a href="index3.html" class="box">
-            <div class="icon-font iconfont icon-gengduo"></div>
-            <p><strong>更多</strong></p>
-        </a>
-        <a href="index4.html" class="box">
-            <div class="icon-font iconfont icon-gengduo"></div>
-            <p><strong>我</strong></p>
-        </a>
-    </footer>
+    <div class="box">
+        <div class="icon iconfont icon-mima"></div>
+        <div class="right">
+            <input type="text">
+            <a href="">忘记密码？</a>
+        </div>
+    </div>
+</div>
+    <input class="button" type="submit" value="登录">
+</form>
 </body>
 </html>

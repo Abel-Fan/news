@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <meta name="x5-fullscreen" content="true" />   <!--只支持x5内核-->
+    <meta name="full-screen" content="yes">   <!--只支持uc浏览器-->
+    <meta name="format-detection" content="telephone=no, email=no" /><!--禁止识别电话号码和邮箱-->
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index5.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="js/zepto.js"></script>
+</head>
+<script>
+    $(function(){
+        function resize(originSize,type){
+            type = type || "x";
+            if(type=="x"){
+                var width = document.documentElement.clientWidth;
+                var scale = width/originSize*100+"px";
+                document.getElementsByTagName("html")[0].style.fontSize=scale;
+            }else if(type=="y"){
+                var height = document.documentElement.clientHeight;
+                var scale = height/originSize+"px";
+                document.getElementsByTagName("html")[0].style.fontSize=scale;
+            }
+        }
+        resize(750,"x");
+    })
+</script>
+<body>
+<header>
+    <div class="icon"><i class="iconfont icon-xiaoyuhao"></i><span>返回</span></div>
+    <strong>环球热点</strong>
+    <div class="icon iconfont icon-sandianheng"></div>
+</header>
+<h6>更多订阅</h6>
+<div class="con-box">
+    <div class="top">
+        <img src="img/new_3.jpg" alt="">
+        <div class="con-title">
+            <h1>女人装</h1>
+            <h4>5762订阅</h4>
+        </div>
+        <a href=""><strong>+</strong></a>
+    </div>
+    <div class="bottom">
+        <h1>那些在一起就招黑的明星情侣</h1>
+        <h4>那些在一起就招黑的明星情侣，那些在一起就招黑的明星情侣</h4>
+    </div>
+</div>
+<div class="con-box">
+    <div class="top">
+        <img src="img/new_3.jpg" alt="">
+        <div class="con-title">
+            <h1>女人装</h1>
+            <h4>5762订阅</h4>
+        </div>
+        <a href=""><strong>+</strong></a>
+    </div>
+    <div class="bottom">
+        <h1>那些在一起就招黑的明星情侣</h1>
+        <h4>那些在一起就招黑的明星情侣，那些在一起就招黑的明星情侣</h4>
+    </div>
+</div>
+<div class="con-box">
+    <div class="top">
+        <img src="img/new_3.jpg" alt="">
+        <div class="con-title">
+            <h1>女人装</h1>
+            <h4>5762订阅</h4>
+        </div>
+        <a href=""><strong>+</strong></a>
+    </div>
+    <div class="bottom">
+        <h1>那些在一起就招黑的明星情侣</h1>
+        <h4>那些在一起就招黑的明星情侣，那些在一起就招黑的明星情侣</h4>
+    </div>
+</div>
+<footer>
+    <a href="index1.html" class="box">
+        <div class="icon-font iconfont icon-shouye"></div>
+        <p><strong>首页</strong></p>
+    </a>
+    <a href="index2.html" class="box">
+        <div class="icon-font iconfont icon-faxian1"></div>
+        <p><strong>发现</strong></p>
+    </a>
+    <a href="index3.html" class="box">
+        <div class="icon-font iconfont icon-gengduo"></div>
+        <p><strong>更多</strong></p>
+    </a>
+    <a href="index4.html" class="box">
+        <div class="icon-font iconfont icon-gengduo"></div>
+        <p><strong>我</strong></p>
+    </a>
+</footer>
+</body>
+</html>

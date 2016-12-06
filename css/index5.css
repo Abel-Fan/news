@@ -1,0 +1,144 @@
+header{
+    width:7.5rem;height:0.87rem;
+    border-bottom:1px solid #df0120;
+    background: #ef0425;
+    color:#fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    letter-spacing: 0.05rem;
+    position: relative;
+    z-index: 999;
+}
+header strong{
+    font-size: 0.36rem;
+}
+header .icon:first-child{
+    width:1rem;
+    height:0.48rem;
+    position: absolute;
+    top:0;bottom:0;
+    margin:auto 0 ;
+    left:0.24rem;
+    font-size: 0.24rem;
+    font-weight: bold;
+    text-align: right;
+    line-height: 0.48rem;
+}
+header .icon:last-child{
+    width:1rem;
+    height:0.48rem;
+    position: absolute;
+    top:0;bottom:0;
+    margin:auto 0 ;
+    right:0.24rem;
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    text-align: center;
+}
+h6{
+    margin-left:0.25rem;
+    font-size: 0.3rem;
+    padding:0.1rem 0;
+}
+.con-box{
+    width:7rem;
+    border:1px solid #ccc;
+    border-radius: 0.1rem;
+    margin:0.2rem auto;
+    box-sizing: border-box;
+    padding:0.1rem;
+    box-shadow:0 0.01rem  0.02rem #ccc;
+}
+.con-box:after,.box:before{
+    content: "";
+    display: block;
+}
+.con-box:after{
+    clear:both;
+}
+.con-box .top{
+    border-bottom:1px solid #ccc;
+}
+.con-box .top{
+    padding-bottom: 0.1rem;
+}
+.con-box .top:after,.con-box .top:before{
+    content: "";
+    display: block;
+}
+.con-box .top:after{
+    clear:both;
+}
+.con-box .top img{
+    display: block;
+    width:1rem;height:1rem;
+    float:left;
+    margin-right:0.1rem ;
+}
+.con-box .top .con-title{
+    float:left;
+    width:1rem;
+}
+.con-box .top .con-title h1{
+    font-size: 0.3rem;
+
+}
+.con-box .top .con-title h4{
+    margin-top: 0.1rem;
+    font-size: 0.24rem;
+    color:#ccc;
+}
+.con-box .top a{
+    width:0.5rem;
+    height:0.5rem;
+    display: block;
+    float:right;
+    background: #EF0425;
+    margin-top:0.2rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color:#fff;
+    font-size: 0.4rem;
+    border-radius:100%;
+    margin-right:0.1rem;
+}
+.con-box .bottom{
+    padding-top:0.1rem;
+}
+.con-box .bottom h1{
+    margin: 0.1rem 0;
+    font-size: 0.24rem;
+}
+.con-box .bottom h4{
+    font-size: 0.20rem;
+    color:#B4B4B4;
+}
+
+
+/*footer*/
+footer{
+    width:7.5rem;
+    height:1.11rem;
+    position:fixed;
+    bottom:0;left:0;
+    background: #2e2e2e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .box{
+    width:0.5rem;
+    color:#fff;
+    font-size: 0.24rem;
+    text-align: center;
+}
+footer .box .icon-font{
+    width:100%;
+    height:0.5rem;
+    text-align: center;
+    font-size: 0.4rem;
+}
+footer .box:nth-child(1){
+    color:#ef0425;
+}
